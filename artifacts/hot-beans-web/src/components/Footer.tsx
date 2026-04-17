@@ -49,7 +49,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-sm text-background/60">
                 <MapPin className="w-4 h-4 text-primary" />
-                23 Green Lane, Bristol, BS1 4QR
+                14 Shoreditch High Street, London, E1 6JJ
               </li>
               <li className="flex items-center gap-2 text-sm text-background/60">
                 <Mail className="w-4 h-4 text-primary" />

@@ -6,7 +6,7 @@ const trainees = [
     name: "Priya Sharma",
     role: "Trainee Front-End Developer",
     joined: "September 2023",
-    qualification: "BSc Computer Science, University of Bristol",
+    qualification: "BSc Computer Science, University College London",
     bio:
       "Priya came to us fresh from university with a passion for accessible design and a growing interest in sustainable tech. In her first year she's already made a measurable impact — redesigning our internal component library to remove unnecessary re-renders and reduce JavaScript bundle size by 32%.",
     contributions: [
@@ -44,7 +44,7 @@ const trainees = [
     contributions: [
       "Developed a design system audit checklist aligning with WCAG 2.2 and sustainable design principles",
       "Reduced average user task completion time by 28% on a major e-commerce project through UX improvements",
-      "Presented at the Bristol Web Meetup on sustainable UX design principles",
+      "Presented at the London Web Meetup on sustainable UX design principles",
     ],
     avatar: "https://api.dicebear.com/9.x/personas/svg?seed=Aisha&backgroundColor=f0d4b8",
     icon: Zap,

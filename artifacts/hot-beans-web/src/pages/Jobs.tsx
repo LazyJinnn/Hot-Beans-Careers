@@ -6,7 +6,7 @@ const jobs = [
     id: "junior-web-developer",
     title: "Junior Web Developer",
     type: "Full-time",
-    location: "Bristol (Hybrid)",
+    location: "London (Hybrid)",
     salary: "£26,000 – £30,000",
     closing: "30 May 2026",
     intro:
@@ -39,7 +39,7 @@ const jobs = [
     id: "sustainable-web-developer",
     title: "Sustainable Web Developer",
     type: "Full-time",
-    location: "Bristol (Hybrid / Remote considered)",
+    location: "London (Hybrid / Remote considered)",
     salary: "£30,000 – £38,000",
     closing: "15 June 2026",
     intro:

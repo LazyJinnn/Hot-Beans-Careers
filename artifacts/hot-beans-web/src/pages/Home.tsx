@@ -61,7 +61,7 @@ export default function Home() {
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8">
               <Leaf className="w-4 h-4 text-green-300" />
               <span className="text-sm text-green-100 font-medium">
-                Bristol's Greenest Web Studio
+                London's Greenest Web Studio
               </span>
             </div>
             <h1
