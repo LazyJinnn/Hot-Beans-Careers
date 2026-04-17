@@ -16,6 +16,15 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 - **API codegen**: Orval (from OpenAPI spec)
 - **Build**: esbuild (CJS bundle)
 
+## Artifacts
+
+### Hot Beans Web — Careers Site (`artifacts/hot-beans-web`)
+- React + Vite frontend, served at `/`
+- No backend required — fully static/client-side
+- 5 pages: Home, Team, Jobs, Courses, Apply
+- Sustainability-themed green design using Playfair Display + Inter fonts
+- Tech: wouter routing, react-hook-form, zod, shadcn/ui components, Tailwind CSS
+
 ## Key Commands
 
 - `pnpm run typecheck` — full typecheck across all packages
