@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Leaf, Mail, MapPin, Phone } from "lucide-react";
+import { SiLinkedin, SiFacebook } from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -13,10 +14,32 @@ export default function Footer() {
               </div>
               <span className="font-bold text-lg text-background">Hot Beans Web</span>
             </div>
-            <p className="text-sm leading-relaxed text-background/60">
+            <p className="text-sm leading-relaxed text-background/60 mb-6">
               A web development studio committed to building a greener, faster, and more
               accessible internet. We grow great developers from the ground up.
             </p>
+            <div className="flex items-center gap-3">
+              <a
+                href="https://www.linkedin.com/company/hotbeansweb"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 rounded-lg bg-background/10 flex items-center justify-center text-background/60 hover:bg-primary hover:text-white transition-all duration-200"
+                data-testid="link-social-linkedin"
+                aria-label="LinkedIn"
+              >
+                <SiLinkedin className="w-4 h-4" />
+              </a>
+              <a
+                href="https://www.facebook.com/hotbeansweb"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 rounded-lg bg-background/10 flex items-center justify-center text-background/60 hover:bg-primary hover:text-white transition-all duration-200"
+                data-testid="link-social-facebook"
+                aria-label="Facebook"
+              >
+                <SiFacebook className="w-4 h-4" />
+              </a>
+            </div>
           </div>
 
           <div>
