@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { Leaf, Mail, MapPin, Phone } from "lucide-react";
-import { SiLinkedin, SiFacebook } from "react-icons/si";
+import { FaLinkedin, FaFacebook } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -27,7 +27,7 @@ export default function Footer() {
                 data-testid="link-social-linkedin"
                 aria-label="LinkedIn"
               >
-                <SiLinkedin className="w-4 h-4" />
+                <FaLinkedin className="w-4 h-4" />
               </a>
               <a
                 href="https://www.facebook.com/hotbeansweb"
@@ -37,7 +37,7 @@ export default function Footer() {
                 data-testid="link-social-facebook"
                 aria-label="Facebook"
               >
-                <SiFacebook className="w-4 h-4" />
+                <FaFacebook className="w-4 h-4" />
               </a>
             </div>
           </div>
